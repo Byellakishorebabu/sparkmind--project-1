@@ -1,0 +1,180 @@
+.colors {
+    background-color: black;
+    color: white;
+    /* padding: 0 10 0 0; */
+}
+
+.container1 {
+    width: 100%;
+    margin: 2px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.col {
+    padding: 5px;
+    align-content: center;
+}
+
+.banner-card {
+    position: relative;
+}
+
+.banner-text {
+    position: absolute;
+    top: 1px;
+    /* font-size: 3vw; */
+    /* font-weight: bold; */
+    padding: 20px;
+    color: rgb(249, 237, 237);
+}
+
+.banner-text h4 {
+    color: white;
+    font-weight: bold;
+    font-size: 4vw;
+}
+
+.banner-text p {
+    text-indent: 0;
+    text-align: left;
+    overflow-wrap: break-word;
+    margin: 0;
+    padding: 0;
+    font-size: 2vw;
+}
+
+.bonus-card {
+    /* margin: 0; */
+    margin-left: 3vw;
+    /* padding-left: 3vw; */
+    background-color: black;
+    color: white;
+    /* width: 45%; */
+    top: 25%;
+    border-radius: 20px;
+    justify-content: left;
+}
+
+.container .bonus-card {
+    margin: 10vw 0vw 0vw 3vw;
+    width: 35%;
+    position: absolute;
+    /* justify-content: center; */
+    align-content: center;
+    text-align: left;
+    align-items: center;
+}
+
+
+/* .banner-text .bonus-card {
+    background-color: black;
+    color: white;
+    width: 45%;
+    top: 20%;
+    border-radius: 20px;
+    justify-content: left;
+    font-size: 2vw;
+
+
+}*/
+
+
+/* .star {
+    position: relative;
+    display: flex;
+    align-items: baseline;
+    float: right;
+    width: 62vw;
+    top: -32vw;
+} */
+
+.bonus-card .star {
+    position: absolute;
+    top: -32%;
+    width: 100%;
+    float: right;
+}
+
+.group6 {
+    width: 100%;
+    display: flex;
+    padding-left: 5px;
+}
+
+.boxborder {
+    border: 1px solid rgb(180, 167, 144);
+    border-radius: 10px;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+    display: flex;
+}
+
+.mini {
+    display: block;
+}
+
+.boxborder .mini {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width: 100%;
+}
+
+.padding1 {
+    padding: 5px;
+}
+
+.size {
+    width: 100%;
+}
+
+.padding2 {
+    padding-top: 15px;
+    float: left;
+}
+
+.group7 {
+    width: 100%;
+    /* display: flex; */
+    padding-left: 5px;
+}
+
+.boxborder2 {
+    border: 1px solid rgb(180, 167, 144);
+    border-radius: 10px;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+    /* display: flex; */
+}
+
+.disp {
+    display: flex;
+}
+
+.padd {
+    padding-left: 40%;
+    /* margin-top: 0px; */
+    width: 50%;
+    height: 50%;
+    padding-right: 5%;
+}
+
+.line {
+    text-decoration: line-through;
+}
+
+.percentage {
+    position: absolute;
+    display: flex;
+}
